@@ -73,4 +73,6 @@ The intense focus we have on our customers is why we are one of the world’s mo
 7. The project integrates AI-based forecasting (using Prophet), a real-world application of machine learning in supply chain forecasting. A problem Amazon solves daily on a global scale.
 
 8. Cloud-Ready Microservice Design
-Amazon's architecture is based on microservices and cloud-native tools (mostly on AWS). PrimePredict was built to reflect that modular thinking:
+Amazon's architecture is based on microservices and cloud-native tools (mostly on AWS).
+
+# PrimePredict was built to reflect that modular thinking
