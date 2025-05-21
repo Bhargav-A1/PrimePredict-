@@ -75,4 +75,4 @@ The intense focus we have on our customers is why we are one of the world’s mo
 8. Cloud-Ready Microservice Design
 Amazon's architecture is based on microservices and cloud-native tools (mostly on AWS).
 
-# PrimePredict was built to reflect that modular thinking
+PrimePredict was built to reflect that modular thinking
