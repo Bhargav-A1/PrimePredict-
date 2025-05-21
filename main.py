@@ -8,23 +8,23 @@ import uvicorn
 # Manually define the FastAPI app and override docs URL
 app = FastAPI(docs_url="/docs")
 
-# ✅ Custom Swagger UI at /docs
+#  Custom Swagger UI at /docs
 @app.get("/docs", include_in_schema=False)
 def custom_swagger_ui():
     return get_swagger_ui_html(openapi_url="/openapi.json", title="PrimePredict API Docs")
 
-# ✅ Root welcome route
+#  Root welcome route
 @app.get("/")
 def root():
     return {"message": "Welcome to PrimePredict API. Visit /docs to test."}
 
-# ✅ Request model
+#  Request model
 class ForecastRequest(BaseModel):
     product_id: str
     historical_data: list
     periods: int
 
-# ✅ Forecast route
+#  Forecast route
 @app.post("/forecast")
 def forecast(request: ForecastRequest):
     try:
@@ -40,6 +40,6 @@ def forecast(request: ForecastRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# ✅ Run app
+#  Run app
 if __name__ == "__main__":
     uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
