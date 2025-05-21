@@ -3,7 +3,7 @@ AI-Powered Demand Forecasting API
 
 PrimePredict is a FastAPI-based machine learning microservice that forecasts future product demand using historical sales data. Built to simulate Amazon-scale forecasting use cases, it uses time-series modeling (Prophet), scalable API architecture, and follows modern backend best practices.
 
-This project was inspired by the Amazon SDE Intern job description, particularly their emphasis on distributed systems, prediction at scale, and building production-level backend services. PrimePredict showcases both the technical skills and problem-solving mindset aligned with Amazon’s engineering culture.
+This project was inspired by the Amazon particularly their emphasis on distributed systems, prediction at scale, and building production-level backend services.
 
 # Features
 /forecast endpoint: Accepts product data and returns multi-day demand predictions
