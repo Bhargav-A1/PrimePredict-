@@ -54,8 +54,6 @@ Build a clean, testable, and extensible forecasting service
 
 
 How This Project Was Inspired by Amazon
-PrimePredict was directly inspired by the Amazon Software Development Engineer Internship job description, which emphasizes:
-
 1. Scalable Systems & Distributed Environments
 Design and build innovative technologies in a large distributed computing environment.
 This project emulates that by structuring the demand forecasting logic as a standalone, scalable API that can easily be containerized and distributed across multiple services (e.g., in a Kubernetes or AWS Lambda environment).
