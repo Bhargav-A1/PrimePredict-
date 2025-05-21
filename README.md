@@ -51,7 +51,6 @@ Showcase skills in AI, API design, and backend microservices
 
 Build a clean, testable, and extensible forecasting service
 
-Let me know if you'd like a README.md file with badges, setup instructions, and GitHub tags — I can generate the full thing!
 
 
 How This Project Was Inspired by Amazon
@@ -69,9 +68,9 @@ Create solutions to run predictions on distributed systems.
 4. Customer Obsession
 The intense focus we have on our customers is why we are one of the world’s most beloved brands.
 
-5. Forecasting helps anticipate customer needs and ensures products are always in stock — enhancing user experience and minimizing delays. PrimePredict simulates this mindset by providing precise, customizable demand predictions for any product.
+5. Forecasting helps anticipate customer needs and ensures products are always in stock  enhancing user experience and minimizing delays. PrimePredict simulates this mindset by providing precise, customizable demand predictions for any product.
 
-6. PrimePredict is built using FastAPI, a modern, agile framework ideal for rapid iteration and CI/CD-friendly deployment — reflecting Amazon's “two-pizza team” development philosophy.
+6. PrimePredict is built using FastAPI, a modern, agile framework ideal for rapid iteration and CI/CD-friendly deployment reflecting Amazon's “two-pizza team” development philosophy.
 
 7. The project integrates AI-based forecasting (using Prophet), a real-world application of machine learning in supply chain forecasting — a problem Amazon solves daily on a global scale.
 
